@@ -23,7 +23,7 @@ def Create_users():
 
         # ---------------- ADMIN LOGIN ----------------
         print(f"Logging in as ADMIN: {admin['username']}")
-        page.goto("https://mr-4099-earthling-books.pantheonsite.io/")
+        page.goto("https://live-icsample1657400753.pantheonsite.io/")
         page.click("//a[@title='Log in']")
         page.fill("//input[@id='edit-name']", admin["username"])
         page.fill("//input[@id='edit-pass']", admin["password"])
