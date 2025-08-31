@@ -71,4 +71,4 @@ def test_create_new_users():
 
 
 if __name__ == "__main__":
-    Create_users()
+    test_create_new_users()
