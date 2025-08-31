@@ -10,7 +10,7 @@ def read_all_credentials(csv_name="credentials.csv"):
         return list(reader)
 
 
-def Create_users():
+def test_create_new_users():
     creds_list = read_all_credentials()
 
     # First row = admin login
